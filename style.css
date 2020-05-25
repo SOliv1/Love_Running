@@ -17,7 +17,7 @@ body {
 }
 
 h2 {
-    font-family: Oswald;
+    font-family: lato;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #555555;
@@ -93,7 +93,7 @@ h2 {
 
 #cover-text {
   font-size: 130%;
-  font-family: Oswald;
+  font-family: lato;
   text-transform: uppercase;
   letter-spacing: 4px;
 
