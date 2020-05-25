@@ -41,6 +41,9 @@ h2 {
   margin-right: 30px;
 }
 
+#menu a {
+  text-decoration: none;
+}
 #hero-image {
   height:600px;
   width: 100%;
@@ -68,7 +71,7 @@ h2 {
     }
 }
 
-#cover-text #cover-text h2{
+#cover-text #cover-text h2 {
       color: #ffffff;
 }
 
