@@ -1,7 +1,4 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
-
 
 
 *{
@@ -117,16 +114,15 @@ h2 {
 }
 
 #left-about {
-  padding-top:30px;
-  width: 30px;
+  padding-top: 30px;
+  width: 33px;
   float: left;
   background-color:blue;
-
 }
 
 #right-about {
   padding-top: 30px;
-  width: 30 px;
+  width: 33px;
   float: right;
   background-color:silver;
 }
@@ -136,4 +132,14 @@ h2 {
   margin: 0 auto;
   background-color:green;
 }
+
+.left-about-heading {
+  width: 50%;
+  float: right;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
+}
+
+
 
