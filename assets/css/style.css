@@ -11,7 +11,7 @@ body {
     color:#777777;
 }
 
-h2 {
+h2{
     font-family: 'Lato';
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -106,23 +106,23 @@ h2 {
 
 }
 
-#club-ethos {
-  height: 600px;
+#club-ethos{
+    height: 600px;
 }
 
-#left-about {
+#left-about{
   padding-top: 30px;
   width: 33px;
   float: left;
 }
 
-#right-about {
+#right-about{
   padding-top: 30px;
   width: 33px;
   float: right;
 }
 
-#center-about {
+#center-about{
   width: 33px;
   margin: 0 auto;
   
@@ -135,38 +135,38 @@ hr{
     margin: 5px 0;
 }
 
-.left-about-heading {
-  width: 50%;
-  float: right;
-  line-height: 20px;
-  clear: both;
-  margin-bottom: 50px;
+.left-about-heading{
+    width: 50%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
 
 
-.right-about-heading {
-  width: 50%;
-  float: left;
-  line-height: 20px;
-  clear: both;
-  margin-bottom: 50px;
+.right-about-heading{
+    width: 50%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
 
-.right-about-heading h2 {
+.right-about-heading h2{
     text-align: right;
 }
 
-.right-about-heading p {
+.right-about-heading p{
     text-align: right;
 }
 
-#welcome {
+#welcome{
     margin: 20, 0;
     text-align: center;
     font-size: 280%
 }
 
-#circle-container {
+#circle-container{
     width: 300px;
     height: 300px;
     padding: 30px;
@@ -177,7 +177,7 @@ hr{
     margin:0 auto;
 }
 
-#circle-cover-bg {
+#circle-cover-bg{
     background:url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/video-mask.png") no-repeat center center;
     height: 100%;
     border-radius: 50%;
