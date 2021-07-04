@@ -301,4 +301,14 @@ footer{
         text-align: center;
         padding: 0 20px 0 20px;
     }
+
+    #photo{
+        column-count: 3;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #photo{
+        column-count: 2;
+    }
 }
