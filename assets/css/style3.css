@@ -52,10 +52,10 @@ h2{
     border-bottom: 1px solid #777777;
 }
 
-#hero-image{
+#hero-image2{
     height:600px;
     width: 100%;
-    background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/main-image.png") no-repeat center center;
+    background: url("../images/alexdl_may.png") no-repeat center center;
 
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -124,6 +124,43 @@ h2{
     margin: 0 auto;
 }
 
+
+@media screen and (max-width: 943px){
+
+#container-wrapper
+    #form .left-about-heading {
+            width: 50%;
+            float: right;
+            line-height: 20px;
+            clear: both;
+            margin-bottom: 50px;
+        }
+        
+    }
+
+
+    #h5 .uppercase .text-center {
+        font-weight: bold;
+        color: #fff;
+    }
+
+    #p {
+        box-sizing: border-box;
+        text-align: justify;
+        margin-bottom: 30px;
+        color: #000;
+    }
+
+    #emailer {
+        font-size: .8em;
+        margin: 40px 25px 40px 25px;
+    }
+
+    #emailer b {
+        font-weight: bold;
+    }
+
+
 hr {
     border-top: 1px solid #777777;
     width: 100%;
@@ -167,14 +204,14 @@ hr {
     margin: 0 auto;
 }
 
-#circle-cover-bg {
-    background: url('http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/video-mask.png') no-repeat center center;
+#circle1-cover-bg {
+    background: url('images/alexdl_may.png') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
 #times{
-    background-image: url('http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/dublin-city.png');
+    background-image: url('images/alexdl_may.png') no repeat center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
