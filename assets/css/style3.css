@@ -1,3 +1,4 @@
+  
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 
 *{
@@ -7,15 +8,17 @@
 }
 
 body{
-    font-family: Lato;
-    color: #777777;
+    font-family: Lato, sans-serif;
+    color: #3a3a3a;
 }
 
-h2{
-    font-family: Oswald;
+/* headings and logo */
+
+h1, h2{
+    font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #555555;
+    color: #252525;
 }
 
 #logo{
@@ -24,9 +27,10 @@ h2{
     margin-left: 30px;
 }
 
+/* navigation links */
+
 #menu{
     font-size: 110%;
-    list-style-type: none;
     letter-spacing: 4px;
 }
 
@@ -34,28 +38,30 @@ h2{
     line-height: 75px;
 }
 
-#menu li {
+#menu li{
     float: right;
+    list-style-type: none;
     margin-right: 30px;
 }
 
-#menu a {
+#menu a{
     text-decoration: none;
     color: inherit;
 }
 
 #menu a:hover{
-    border-bottom: 1px solid #777777;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 .active{
-    border-bottom: 1px solid #777777;
+    border-bottom: 1px solid #3a3a3a;
 }
 
-#hero-image2{
+
+#hero-image{
     height:600px;
     width: 100%;
-    background: url("../images/alexdl_may.png") no-repeat center center;
+    background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/main-image.png") no-repeat center center;
 
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -124,51 +130,14 @@ h2{
     margin: 0 auto;
 }
 
-
-@media screen and (max-width: 943px){
-
-#container-wrapper
-    #form .left-about-heading {
-            width: 50%;
-            float: right;
-            line-height: 20px;
-            clear: both;
-            margin-bottom: 50px;
-        }
-        
-    }
-
-
-    #h5 .uppercase .text-center {
-        font-weight: bold;
-        color: #fff;
-    }
-
-    #p {
-        box-sizing: border-box;
-        text-align: justify;
-        margin-bottom: 30px;
-        color: #000;
-    }
-
-    #emailer {
-        font-size: .8em;
-        margin: 40px 25px 40px 25px;
-    }
-
-    #emailer b {
-        font-weight: bold;
-    }
-
-
 hr {
-    border-top: 1px solid #777777;
+    border-top: 1px solid #3a3a3a;
     width: 100%;
     margin: 5px 0;
 }
 
 .left-about-heading {
-    width: 50%;
+    width: 60%;
     float: right;
     line-height: 20px;
     clear: both;
@@ -176,16 +145,22 @@ hr {
 }
 
 .right-about-heading {
-    width: 50%;
+    width: 60%;
     float: left;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
 }
 
+.right-about-heading p {
+    text-align: right;
+}
+
 .right-about-heading h2 {
     text-align: right;
 }
+
+/* Club ethos center image */
 
 #welcome {
     margin: 20px 0;
@@ -204,14 +179,16 @@ hr {
     margin: 0 auto;
 }
 
-#circle1-cover-bg {
-    background: url('images/alexdl_may.png') no-repeat center center;
+#circle-cover-bg {
+    background: url('http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/video-mask.png') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
+/* Event times */
+
 #times{
-    background-image: url('images/alexdl_may.png') no repeat center center;
+    background-image: url('http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/dublin-city.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -222,17 +199,20 @@ hr {
 #times div {
     color: #fafafa;
     background-color: rgba(0,0,0, .6);
-    width: 19%;
+    width: 20%;
     height: 300px;
     float: left;
     padding: 30px 0 0 10px;
     text-align: center;
-    margin: 2px;
+    border: 2px solid white;
+    box-sizing: border-box;
 }
 
 #times h2 {
     color: #fafafa;
 }
+
+/* Footer */
 
 footer{
     height: 150px;
@@ -251,8 +231,10 @@ footer{
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #777777;
+    color: #3a3a3a;
 }
+
+/* Gallery Photos */
 
 #photo {
     clear: both;
@@ -265,7 +247,65 @@ footer{
     width: 100%;
 }
 
-@media screen and (max-width: 1396px){
+/* Form */
+
+.form-section {
+    clear: left;
+    background: url("../images/signup-image.webp");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.signup-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #f16c6b;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
+}
+
+/* Media queries */
+
+/* For large to medium screens sizes from 1200px wide and down */
+@media screen and (max-width: 1200px){
     #club-ethos{
         width: 65%;
         height: 1200px;
@@ -294,9 +334,6 @@ footer{
         width: 100%;
         clear: both;
         height: 150px;
-        border-style: solid;
-        border-bottom-width: 1px;
-        border-bottom-color: #fff; 
         padding: 0;
     }
 
@@ -305,7 +342,8 @@ footer{
     }
 }
 
-@media screen and (max-width: 943px){
+/* For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px){
 
     #menu{
         clear: left;
@@ -344,6 +382,7 @@ footer{
     }
 }
 
+/* For small screens sizes from 800px wide and down */
 @media screen and (max-width: 800px){
     #photo{
         column-count: 2;
